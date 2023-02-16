@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer ></script>
+</head>
+<body>
+    <h1 class="titulo">Juego de memoria</h1>
+    <main>
+        <section class="section1" id="section1">
+            <div class="contenedorTable" id="contenedorTable">
+
+            </div>
+
+
+
+        </section>
+        <section class="section2">
+            <p class="p">Escoja el tamaño del Tablero para Jugar</p>
+            <div class="tarjetas">
+                <button class="btn-tarjetas" id="btn-tarjetas16">16 tarjetas</button>
+                <button class="btn-tarjetas" id="btn-tarjetas32">32 tarjetas</button>
+            </div>
+            <div class="contenedorResultados" id="contenedorResultados">
+                <h2 id="aciertos" class="estadisticas">Aciertos</h2>
+                <h2 id="t-restantes" class="estadisticas">Tiempo</h2>
+                <h2 id="movimientos" class="estadisticas">Movimientos</h2>
+                <div class="botones">
+                    <button class="btn" id="btn-recetar" onclick="reset()">Reset</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <p>Juego programado por: <a href="#">Andrés Díaz</a></p>
+    </footer>
+</body>
+</html>
